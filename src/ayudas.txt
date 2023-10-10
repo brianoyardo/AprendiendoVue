@@ -1,0 +1,13 @@
+  <!--<h1>{{prod}}</h1> Sirve para laravel tambien  -->
+  <!-- <h1>{{prod.toUpperCase()+"otro texto"}}</h1> -->
+  <!-- <h1 >{{ esValido?"Valido":"no Valido"}}</h1> -->
+  <!-- <h1 :style="color">{{ prod }}</h1> Para enlazar el estilo -->
+  <h1 v-bind:style="color">{{ prod }}</h1> <!-- Lo mismo pero con diferente notacion.-->
+
+
+  abajo en script
+
+  const prod = "Automoviles"
+  const esValido = true;
+  const color = "color: red";
+  
